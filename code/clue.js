@@ -63,48 +63,48 @@ const msScarlet = {
 
 const rope = {
   name: 'Rope',
-  weight: 2
+  weight: '2 kg'
 }
 
 const knife = {
   name: 'Knife',
-  weight: 1
+  weight: '1 kg'
 
 }
 
 const candlestick = {
   name: 'Candlestick',
-  weight: 2
+  weight: '2 kg'
 }
 
 const dumbbell = {
   name: 'Dumbbell',
-  weight: 20
+  weight: '20 kg'
 }
 
 const poison = {
   name: 'Poison',
-  weight: 0.1
+  weight: '0.1 kg'
 }
 
 const axe = {
   name: 'Axe',
-  weight: 13
+  weight: '13 kg'
 }
 
 const bat = {
   name: 'Bat',
-  weight: 4
+  weight: '4 kg'
 }
 
 const trophy = {
   name: 'Trophy',
-  weight: 8
+  weight: '8 kg'
 }
 
 const pistol = {
   name: 'Pistol',
-  weight: 1
+  weight: '1 kg'
 }
 
 
@@ -197,5 +197,5 @@ const pickRoom = () => {
 // 'The murder was committed by Jacob Green, in the living room with a rope.'
 
 const revealMystery = () => {
-  document.getElementById('mystery').innerHTML = `The murder was committed by ${mystery.killer.firstName} ${mystery.killer.lastName} in the ${mystery.room} with a ${mystery.weapons.name} that weighted ${mystery.weapons.weight} kg. `
+  document.getElementById('mystery').innerHTML = `The murder was committed by ${mystery.killer.firstName} ${mystery.killer.lastName} in the ${mystery.room} with a ${mystery.weapons.name} that weighted ${mystery.weapons.weight}. `
 };

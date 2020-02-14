@@ -10,14 +10,14 @@
   <title>Project Cluedo</title>
 </head>
 
-<header>
-  <h1>Cluedo Mystery Picker</h1>
-</header>
-
 <body>
+  <header>
+    <h1>Cluedo Mystery Picker</h1>
+  </header>
+
   <section class="cards">
     <article class="killer-deck" id="killerCard" onclick="pickKiller()">
-      <p>KILLER</p>
+      <h2>Killer</h2>
       <p id="killerName"></p>
       <p id="killerAge"></p>
       <p id="killerOccupation"></p>
@@ -26,20 +26,20 @@
     </article>
 
     <article class="weapon-deck" id="weaponCard" onclick="pickWeapon()">
-      <p>WEAPON</p>
+      <h2>Weapon</h2>
       <p id="weaponName"></p>
       <p id="weaponWeight"></p>
     </article>
 
     <article class="room-deck" id="roomCard" onclick="pickRoom()">
-      <p>ROOM</p>
+      <h2>Room</h2>
       <p id="roomName"></p>
     </article>
   </section>
 
   <div id="mystery"></div>
 
-  <button onclick="revealMystery()">REVEAL THE CRIME</button>
+  <button onclick="revealMystery()">Reveal the crime</button>
 
   <script src="clue.js"></script>
 </body>
