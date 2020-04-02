@@ -1,6 +1,6 @@
 # Cluedo - Mystery Randomizer
 
-Week 5 of Technigo bootcamp and we were assigned to do a mystery randomizer for the game leader of a Cluedo game. The site should consits of three deck of cards which when you clicked them randomly gave you a murderer, a weapon and a room where the murder took place. We should also have a button that summon up the mystery in text when clicked. 
+Week 5 of Technigo bootcamp and we were assigned to do a mystery randomizer for the game leader of a Cluedo game. The site should consits of three deck of cards which when you clicked them randomly gave you a murderer, a weapon and a room where the murder took place. We should also have a button that summon up the mystery in text when clicked and follow given design guidelines.
 
 ## The problem
 
